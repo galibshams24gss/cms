@@ -1,0 +1,7 @@
+cms - index.php, displayarticles.php
+cms/assets - style.css
+cms/includes - connection.php, article.php
+cms/admin/index.php
+
+
+query - pdo prepare with sql, bind, execute, rowCount

@@ -1,0 +1,43 @@
+body {
+	padding-top: 150px;
+	font-family: Arial;	
+}
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+a:link, a:visited {
+	color: White;
+	text-decoration: none;
+	border-bottom: 2px solid Green;
+	font-size: 150%;
+}
+
+a:hover {
+	color: Black;
+	border-bottom: Red;
+}
+
+small {
+	color: Green;
+	font-style: italic;
+}
+
+p{
+	line-height: 30px;
+}
+
+ol li{
+	line-height: 50px;
+}
+
+input[type=text], input[type=password], textarea{
+	-webkit-appearance: none;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus{
+	outline: none;
+}
